@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Staatliches&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/Logo2.png" alt="logo">
+        </a>
+    </header>
+
+    <nav class="navigation">
+        <a class="link__navigation link__navigation--active" href="index.html">Tienda</a>
+        <a class="link__navigation" href="aboutUs.html">Nosotros</a>
+    </nav>
+
+    <main class="container">
+       <!-- <h1>VueJS</h1> -->
+
+        <div class="shirt">
+            <img class="shirt__image" src="img/1.jpg" alt="shirt image">
+
+            <div class="shirt__content">
+                <h1 class="title__shirt">VueJS</h1>
+                <p>Donec vitae egestas mauris. Nam quis lacus at velit scelerisque dignissim vitae at tellus. Proin
+                    convallis lacus a lacus egestas, sit amet maximus massa pellentesque. Proin mollis ipsum mauris.
+                    Proin pellentesque facilisis erat id faucibus. Quisque venenatis augue sollicitudin, luctus risus
+                    vitae, eleifend ante.</p>
+
+                <form class="form">
+                    <select class="input__form">
+                        <option disabled selected>Seleccionar Talla</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+
+                    <input class="input__form" type="number" placeholder="Cantidad" min="1">
+                    <input class="submit__form" type="submit" value="Agregar al Carrito">
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p class="text__footer">Frontend store - todos los derechos reservados 2024.</p>
+    </footer>
+
+</body>
+</html>
